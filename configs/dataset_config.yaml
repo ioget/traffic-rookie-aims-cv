@@ -1,0 +1,47 @@
+# Configuration Dataset pour Projet Trafic Sénégal
+# Basé sur BDD100K YOLO Dataset
+
+# Chemins des données
+path: /kaggle/input/bdd100k-yolo  # À adapter pour votre environnement local
+train: /kaggle/input/bdd100k-yolo/train/images
+val: /kaggle/input/bdd100k-yolo/val/images
+test: /kaggle/input/bdd100k-yolo/test/images
+
+# Classes d'objets pour le trafic sénégalais
+nc: 10
+names:
+  0: person        # Piétons - très important pour la sécurité routière
+  1: rider         # Motards/Cyclistes - nombreux au Sénégal
+  2: car           # Voitures - véhicule le plus commun
+  3: bus           # Bus et cars rapides - transport en commun
+  4: truck         # Camions - transport de marchandises
+  5: bike          # Vélos - transport écologique
+  6: motor         # Motos - très populaires au Sénégal
+  7: traffic light # Feux de signalisation
+  8: traffic sign  # Panneaux de signalisation
+  9: train         # Trains (optionnel, moins pertinent)
+
+# Paramètres de prétraitement
+preprocessing:
+  image_size: 640
+  batch_size: 16
+  augment: true
+  
+# Classes prioritaires pour le contexte sénégalais
+priority_classes:
+  - person      # Sécurité piétons
+  - car         # Véhicules majoritaires
+  - motor       # Très populaires
+  - bus         # Transport public
+  - truck       # Transport marchandises
+
+# Classes secondaires
+secondary_classes:
+  - bike
+  - rider
+  - traffic light
+  - traffic sign
+
+# Classes optionnelles
+optional_classes:
+  - train
