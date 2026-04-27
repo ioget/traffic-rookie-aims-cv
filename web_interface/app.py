@@ -45,15 +45,16 @@ logging.basicConfig(level=logging.INFO)
 
 # ── Shared state ─────────────────────────────────────────────────────────────
 state = {
-    "running":       False,
-    "video_path":    None,
-    "frame_id":      0,
-    "total":         0,
-    "unique_ids":    set(),
-    "class_counts":  defaultdict(int),
-    "logs":          deque(maxlen=200),
-    "hourly":        defaultdict(int),
-    "latency_ms":    0.0,
+    "running":        False,
+    "video_path":     None,
+    "frame_id":       0,
+    "total_frames":   0,   # total frames in video
+    "total":          0,
+    "unique_ids":     set(),
+    "class_counts":   defaultdict(int),
+    "logs":           deque(maxlen=200),
+    "hourly":         defaultdict(int),
+    "latency_ms":     0.0,
 }
 event_queue: queue.Queue = queue.Queue(maxsize=50)
 state_lock = threading.Lock()
@@ -69,13 +70,15 @@ def detection_loop(video_path: str):
         logging.error(f"Cannot open video: {video_path}")
         return
 
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     with state_lock:
-        state["running"]      = True
-        state["frame_id"]     = 0
-        state["total"]        = 0
-        state["unique_ids"]   = set()
-        state["class_counts"] = defaultdict(int)
-        state["logs"]         = deque(maxlen=200)
+        state["running"]       = True
+        state["frame_id"]      = 0
+        state["total_frames"]  = total_frames
+        state["total"]         = 0
+        state["unique_ids"]    = set()
+        state["class_counts"]  = defaultdict(int)
+        state["logs"]          = deque(maxlen=200)
 
     while state["running"]:
         t0 = time.time()
@@ -219,13 +222,19 @@ def stream():
 @app.get("/api/stats")
 def get_stats():
     with state_lock:
+        processed = state["frame_id"]
+        total_f   = state["total_frames"] or 1
+        pct       = min(round(processed / total_f * 100), 100)
         return jsonify({
-            "live_count":   len([l for l in list(state["logs"])[:10] if l["frame_id"] == state["frame_id"]]),
-            "unique_count": len(state["unique_ids"]),
-            "total":        state["total"],
-            "latency_ms":   state["latency_ms"],
-            "running":      state["running"],
-            "class_counts": dict(state["class_counts"]),
+            "live_count":    len([l for l in list(state["logs"])[:10] if l["frame_id"] == state["frame_id"]]),
+            "unique_count":  len(state["unique_ids"]),
+            "total":         state["total"],
+            "latency_ms":    state["latency_ms"],
+            "running":       state["running"],
+            "class_counts":  dict(state["class_counts"]),
+            "frames_done":   processed,
+            "total_frames":  state["total_frames"],
+            "progress_pct":  pct,
         })
 
 
