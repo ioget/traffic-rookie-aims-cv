@@ -48,62 +48,19 @@ export function VideoViewer({ isProcessing, onObjectsUpdate, showBoxes, showIds,
   }, [isProcessing]);
 
   return (
-    <div className="relative w-full aspect-video bg-slate-900 rounded-xl overflow-hidden shadow-2xl group border border-slate-800">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1545147986-a9d6f210df77?q=80&w=2000')] bg-cover bg-center opacity-40 grayscale" />
-      <div className="absolute inset-0 pointer-events-none z-10 opacity-20 bg-[linear-gradient(to_right,#ffffff1a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff1a_1px,transparent_1px)] bg-[size:40px_40px]" />
+    <div className="relative w-full aspect-video bg-slate-900 rounded-xl overflow-hidden shadow-2xl border border-slate-800">
+      {/* Live MJPEG stream from Flask — annotations drawn server-side */}
+      <img
+        src={`${API}/api/video_stream`}
+        className="absolute inset-0 w-full h-full object-cover"
+        alt="Live detection feed"
+      />
 
-      {/* Detection overlays */}
-      <div className="absolute inset-0 z-20 overflow-hidden">
-        {objects.map((obj) => (
-          <div
-            key={obj.id}
-            className="absolute transition-all duration-300"
-            style={{
-              left:   `${obj.bbox[0] * 100}%`,
-              top:    `${obj.bbox[1] * 100}%`,
-              width:  `${obj.bbox[2] * 100}%`,
-              height: `${obj.bbox[3] * 100}%`,
-            }}
-          >
-            {showBoxes && (
-              <div
-                className="absolute inset-0 border-2"
-                style={{
-                  borderColor:     OBJECT_CLASSES[obj.class]?.color ?? '#fff',
-                  backgroundColor: `${OBJECT_CLASSES[obj.class]?.color ?? '#fff'}1a`,
-                }}
-              />
-            )}
-            {(showLabels || showIds) && (
-              <div className="absolute top-0 left-0 -translate-y-full flex gap-1 p-0.5">
-                {showLabels && (
-                  <span
-                    className="px-1.5 py-0.5 rounded-sm text-[10px] font-black text-white uppercase tracking-tight"
-                    style={{ backgroundColor: OBJECT_CLASSES[obj.class]?.color ?? '#666' }}
-                  >
-                    {obj.class} {(obj.confidence * 100).toFixed(0)}%
-                  </span>
-                )}
-                {showIds && (
-                  <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-black text-white bg-black/60">
-                    {obj.id}
-                  </span>
-                )}
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-
-      {/* No objects message */}
-      {isProcessing && objects.length === 0 && (
-        <div className="absolute bottom-12 left-4 z-30 px-3 py-1.5 bg-yellow-500/80 rounded text-[11px] font-bold text-white">
-          No objects detected in current frame
-        </div>
-      )}
+      {/* HUD overlay */}
+      <div className="absolute inset-0 pointer-events-none z-10 opacity-10 bg-[linear-gradient(to_right,#ffffff1a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff1a_1px,transparent_1px)] bg-size-[40px_40px]" />
 
       {!isProcessing && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/60 backdrop-blur-[1px] z-40">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/70 backdrop-blur-[2px] z-40">
           <div className="text-center">
             <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-2 border border-white/20">
               <Pause className="w-6 h-6 text-white" />
@@ -195,7 +152,7 @@ function Toggle({ label, active, onClick }: { label: string; active: boolean; on
     <button onClick={onClick} className="flex items-center justify-between w-full group">
       <span className="text-xs font-semibold text-slate-600 group-hover:text-slate-900 transition-colors">{label}</span>
       <div className={cn('w-8 h-4 rounded-full relative transition-colors', active ? 'bg-blue-600' : 'bg-slate-200')}>
-        <div className={cn('absolute top-0.5 w-3 h-3 bg-white rounded-full transition-all shadow-sm', active ? 'left-[17px]' : 'left-[3px]')} />
+        <div className={cn('absolute top-0.5 w-3 h-3 bg-white rounded-full transition-all shadow-sm', active ? 'left-4.25' : 'left-0.75')} />
       </div>
     </button>
   );
