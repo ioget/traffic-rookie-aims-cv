@@ -41,6 +41,14 @@ export default function AnalysisPage() {
   const [detections,  setDetections]  = useState<Detection[]>([]);
   const [liveStats,   setLiveStats]   = useState({ unique: 0, latency: 0, total: 0 });
 
+  // Upload state
+  type UploadStatus = 'idle' | 'uploading' | 'ready' | 'running' | 'done' | 'error';
+  const [uploadStatus, setUploadStatus] = useState<UploadStatus>('idle');
+  const [uploadFile,   setUploadFile]   = useState<File | null>(null);
+  const [uploadError,  setUploadError]  = useState('');
+  const [progress,     setProgress]     = useState({ pct: 0, total: 0, frames: 0, objects: 0 });
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
   const esRef          = useRef<EventSource | null>(null);
   const heatmapRef     = useRef<HTMLCanvasElement>(null);
   // Track history for direction + trail: id → last 6 [cx, cy] positions
@@ -137,6 +145,62 @@ export default function AnalysisPage() {
     trackHist.current.clear();
   };
 
+  // ── Upload handlers ──────────────────────────────────────────────────────────
+  const handleFilePick = (f: File) => {
+    setUploadFile(f);
+    setUploadStatus('idle');
+    setUploadError('');
+    setProgress({ pct: 0, total: 0, frames: 0, objects: 0 });
+  };
+
+  const handleUpload = async () => {
+    if (!uploadFile) return;
+    setUploadStatus('uploading');
+    const form = new FormData();
+    form.append('file', uploadFile);
+    try {
+      const res = await fetch(`${API}/api/upload`, { method: 'POST', body: form });
+      if (!res.ok) throw new Error((await res.json()).error ?? 'Upload failed');
+      setUploadStatus('ready');
+    } catch (e: any) {
+      setUploadError(e.message);
+      setUploadStatus('error');
+    }
+  };
+
+  const handleStartDetection = async () => {
+    const res = await fetch(`${API}/api/detect/start`, { method: 'POST' });
+    if (!res.ok) { setUploadError('Already running — stop first'); return; }
+    setUploadStatus('running');
+    setIsLive(true);
+    pollRef.current = setInterval(async () => {
+      try {
+        const d = await fetch(`${API}/api/stats`).then(r => r.json());
+        setProgress({ pct: d.progress_pct ?? 0, total: d.total_frames ?? 0, frames: d.frames_done ?? 0, objects: d.total ?? 0 });
+        if (!d.running && d.frames_done > 0) {
+          clearInterval(pollRef.current!);
+          setUploadStatus('done');
+          setProgress(p => ({ ...p, pct: 100 }));
+        }
+      } catch {}
+    }, 800);
+  };
+
+  const handleStopUpload = async () => {
+    await fetch(`${API}/api/detect/stop`, { method: 'POST' });
+    if (pollRef.current) clearInterval(pollRef.current);
+    setUploadStatus('ready');
+    setIsLive(false);
+    setDetections([]);
+  };
+
+  const resetUpload = () => {
+    setUploadFile(null);
+    setUploadStatus('idle');
+    setUploadError('');
+    setProgress({ pct: 0, total: 0, frames: 0, objects: 0 });
+  };
+
   const toggleLayer = (key: string, val: boolean, set: (v: boolean) => void) => set(!val);
 
   return (
@@ -176,19 +240,77 @@ export default function AnalysisPage() {
             </button>
           </div>
 
-          <div className="glass-panel p-8 flex flex-col items-center justify-center text-center gap-6">
-            <div className="w-20 h-20 rounded-full bg-slate-50 flex items-center justify-center text-slate-400">
-              <Upload size={40} />
-            </div>
-            <div className="space-y-2">
-              <h3 className="text-xl font-bold">Upload Traffic Video</h3>
-              <p className="text-sm text-slate-400 max-w-xs">
-                Upload a custom video to the backend and start detection on it.
-              </p>
-            </div>
-            <a href="/dashboard" className="px-6 py-2 bg-primary-dark text-white rounded-lg text-sm font-bold hover:bg-slate-800 transition-colors">
-              Go to Dashboard
-            </a>
+          {/* Upload Zone */}
+          <div className="glass-panel p-8 flex flex-col items-center justify-center text-center gap-5">
+            {!uploadFile ? (
+              <>
+                <label className="cursor-pointer w-full flex flex-col items-center gap-5 group">
+                  <div className="w-20 h-20 rounded-full bg-blue-50 flex items-center justify-center text-accent-blue transition-all group-hover:scale-110">
+                    <Upload size={40} />
+                  </div>
+                  <div className="space-y-1">
+                    <h3 className="text-xl font-bold">Upload Traffic Video</h3>
+                    <p className="text-sm text-slate-400 max-w-xs">MP4, AVI or MOV — detection starts on your video</p>
+                  </div>
+                  <span className="px-6 py-2 bg-primary-dark text-white rounded-lg text-sm font-bold hover:bg-slate-800 transition-colors">
+                    Browse File
+                  </span>
+                  <input type="file" accept="video/*" className="hidden"
+                    onChange={e => e.target.files?.[0] && handleFilePick(e.target.files[0])} />
+                </label>
+              </>
+            ) : (
+              <div className="w-full space-y-4">
+                {/* File info */}
+                <div className="flex items-center gap-3 p-3 bg-slate-50 rounded-xl border border-slate-200">
+                  {uploadStatus === 'done'
+                    ? <CheckCircle2 size={24} className="text-emerald-500 shrink-0" />
+                    : uploadStatus === 'uploading' || uploadStatus === 'running'
+                    ? <Loader2 size={24} className="text-accent-blue animate-spin shrink-0" />
+                    : <Upload size={24} className="text-slate-400 shrink-0" />
+                  }
+                  <div className="text-left min-w-0">
+                    <p className="text-sm font-bold truncate">{uploadFile.name}</p>
+                    <p className="text-xs text-slate-400">{(uploadFile.size / 1024 / 1024).toFixed(1)} MB</p>
+                  </div>
+                </div>
+
+                {/* Progress bar */}
+                {(uploadStatus === 'running' || uploadStatus === 'done') && (
+                  <div className="space-y-1">
+                    <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
+                      <motion.div
+                        animate={{ width: `${progress.pct}%` }}
+                        className={`h-full rounded-full ${uploadStatus === 'done' ? 'bg-emerald-500' : 'bg-accent-blue'}`}
+                      />
+                    </div>
+                    <div className="flex justify-between text-[10px] font-mono text-slate-500">
+                      <span>{progress.objects.toLocaleString()} objects detected</span>
+                      <span>{progress.pct}%</span>
+                    </div>
+                  </div>
+                )}
+
+                {uploadStatus === 'done' && (
+                  <div className="p-3 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-700 text-sm font-bold flex items-center gap-2">
+                    <CheckCircle2 size={16} /> Detection complete — stream above shows results
+                  </div>
+                )}
+
+                {uploadError && <p className="text-xs text-red-500">{uploadError}</p>}
+
+                {/* Action buttons */}
+                <div className="flex gap-2 justify-center flex-wrap">
+                  {uploadStatus === 'idle'     && <button onClick={handleUpload} className="px-5 py-2 bg-accent-blue text-white text-sm font-bold rounded-xl hover:bg-blue-600 transition-all active:scale-95">Upload</button>}
+                  {uploadStatus === 'uploading' && <span className="text-sm text-slate-500 flex items-center gap-2"><Loader2 size={14} className="animate-spin" /> Uploading…</span>}
+                  {uploadStatus === 'ready'     && <button onClick={handleStartDetection} className="px-5 py-2 bg-emerald-600 text-white text-sm font-bold rounded-xl hover:bg-emerald-700 transition-all active:scale-95">Start Detection</button>}
+                  {uploadStatus === 'running'   && <button onClick={handleStopUpload} className="px-5 py-2 bg-red-500 text-white text-sm font-bold rounded-xl hover:bg-red-600 transition-all">Stop</button>}
+                  {uploadStatus !== 'uploading' && uploadStatus !== 'running' && (
+                    <button onClick={resetUpload} className="px-4 py-2 border border-slate-200 text-slate-500 text-sm font-bold rounded-xl hover:bg-slate-50 transition-all">Reset</button>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       ) : (
