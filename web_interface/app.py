@@ -13,15 +13,16 @@ import numpy as np
 from collections import defaultdict, deque
 from datetime import datetime
 
-from flask import Flask, request, jsonify, Response, stream_with_context
+from flask import Flask, request, jsonify, Response, stream_with_context, send_file
 from flask_cors import CORS
 
 from src.detection.yolo_detector import YOLODetector
 from src.tracking.sort_tracker import SORTTracker
 
 # ── Config ───────────────────────────────────────────────────────────────────
-MODEL_PATH   = "models/yolo11n_finetuned.pt"
-DEFAULT_VIDEO = "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4"
+MODEL_PATH    = "models/yolo11n.pt"
+DEFAULT_VIDEO = "data/15484497_1920_1080_30fps.mp4"
+FRAME_SKIP    = 5   # run YOLO every 5th frame → ~6 fps detection on 30 fps video
 UPLOAD_DIR   = Path("uploads")
 UPLOAD_DIR.mkdir(exist_ok=True)
 
@@ -103,8 +104,9 @@ def _annotate(frame: np.ndarray, detections: list, frame_id: int) -> np.ndarray:
 
 # ── Detection loop (runs in background thread) ────────────────────────────────
 def detection_loop(video_path: str):
-    detector = YOLODetector(model_path=MODEL_PATH, confidence_threshold=0.45)
-    tracker  = SORTTracker()
+    detector      = YOLODetector(model_path=MODEL_PATH, confidence_threshold=0.45)
+    tracker       = SORTTracker()
+    last_rich_dets: list = []   # reused for skipped frames
 
     while state["running"]:
         cap = cv2.VideoCapture(video_path)
@@ -116,68 +118,86 @@ def detection_loop(video_path: str):
         with state_lock:
             state["frame_id"]     = 0
             state["total_frames"] = total_frames
+        logging.info(f"[DETECTION] Starting loop — {total_frames} frames | video: {video_path}")
 
         while state["running"]:
             t0 = time.time()
             ok, frame = cap.read()
             if not ok:
+                logging.info("[DETECTION] End of video — looping.")
                 break  # end of video → loop
 
-            results = detector.model.track(
-                frame, conf=detector.confidence_threshold,
-                persist=True, verbose=False,
-            )[0]
-
-            detections = tracker.update(results, detector.class_names)
-            latency = round((time.time() - t0) * 1000, 1)
-            hour_key = datetime.now().strftime("%H:00")
-            objects  = []
-            rich_dets = []
-
             with state_lock:
-                state["frame_id"]   += 1
-                state["latency_ms"]  = latency
+                state["frame_id"] += 1
                 fid = state["frame_id"]
 
-                if detections:
-                    state["hourly"][hour_key] += len(detections)
-                    state["total"]            += len(detections)
+            # Only run YOLO every FRAME_SKIP frames for near-real-time performance
+            if fid % FRAME_SKIP == 0:
+                results = detector.model.track(
+                    frame, conf=detector.confidence_threshold,
+                    persist=True, verbose=False,
+                )[0]
+                detections = tracker.update(results, detector.class_names)
+                latency    = round((time.time() - t0) * 1000, 1)
+                hour_key   = datetime.now().strftime("%H:00")
+                objects    = []
+                rich_dets  = []
 
-                for det in detections:
-                    raw_cls = det["class_name"]
-                    fcls    = CLASS_MAP.get(raw_cls, raw_cls)
-                    tid     = det["track_id"]
-                    conf    = det["confidence"]
-                    x1, y1, x2, y2 = det["bbox"]
-                    h, w = frame.shape[:2]
+                with state_lock:
+                    state["latency_ms"] = latency
+                    if detections:
+                        state["hourly"][hour_key] += len(detections)
+                        state["total"]            += len(detections)
 
-                    state["unique_ids"].add(f"{fcls}-{tid}")
-                    state["class_counts"][fcls] += 1
+                    for det in detections:
+                        raw_cls = det["class_name"]
+                        fcls    = CLASS_MAP.get(raw_cls, raw_cls)
+                        tid     = det["track_id"]
+                        conf    = det["confidence"]
+                        x1, y1, x2, y2 = det["bbox"]
+                        h, w = frame.shape[:2]
 
-                    obj = {
-                        "id":        f"TRK-{tid:04d}",
-                        "class":     fcls,
-                        "confidence": round(conf, 4),
-                        "bbox":      [round(x1/w,3), round(y1/h,3),
-                                      round((x2-x1)/w,3), round((y2-y1)/h,3)],
-                        "timestamp": int(time.time() * 1000),
-                    }
-                    objects.append(obj)
-                    state["logs"].appendleft({**obj, "frame_id": fid})
-                    rich_dets.append({**det, "frontend_cls": fcls})
+                        state["unique_ids"].add(f"{fcls}-{tid}")
+                        state["class_counts"][fcls] += 1
 
-            # Draw and encode JPEG
+                        obj = {
+                            "id":         f"TRK-{tid:04d}",
+                            "class":      fcls,
+                            "confidence": round(conf, 4),
+                            "bbox":       [round(x1/w,3), round(y1/h,3),
+                                           round((x2-x1)/w,3), round((y2-y1)/h,3)],
+                            "timestamp":  int(time.time() * 1000),
+                        }
+                        objects.append(obj)
+                        state["logs"].appendleft({**obj, "frame_id": fid})
+                        rich_dets.append({**det, "frontend_cls": fcls})
+
+                last_rich_dets = rich_dets
+
+                if fid % 30 == 0:   # log every 30 detected frames
+                    pct = round(fid / max(total_frames, 1) * 100, 1)
+                    logging.info(
+                        f"[DETECTION] frame {fid}/{total_frames} ({pct}%) | "
+                        f"objects this frame: {len(objects)} | "
+                        f"total detected: {state['total']} | "
+                        f"latency: {latency} ms"
+                    )
+
+                # Push SSE event only on detection frames
+                payload = json.dumps({"objects": objects, "frame_id": fid,
+                                      "total": state["total"]})
+                try:
+                    event_queue.put_nowait(payload)
+                except queue.Full:
+                    pass
+            else:
+                rich_dets = last_rich_dets  # reuse last known boxes
+
+            # Always annotate and push every frame to MJPEG (smooth video)
             annotated = _annotate(frame, rich_dets, fid)
-            _, jpeg = cv2.imencode(".jpg", annotated, [cv2.IMWRITE_JPEG_QUALITY, 80])
+            _, jpeg = cv2.imencode(".jpg", annotated, [cv2.IMWRITE_JPEG_QUALITY, 75])
             with frame_lock:
                 state["frame_bytes"] = jpeg.tobytes()
-
-            # Push SSE event
-            payload = json.dumps({"objects": objects, "frame_id": fid})
-            try:
-                event_queue.put_nowait(payload)
-            except queue.Full:
-                pass
 
         cap.release()
         # loop the video automatically
@@ -313,6 +333,72 @@ def _color(cls):
         "pedestrian":   "#ef4444",
         "bicycle":      "#ec4899",
     }.get(cls, "#94a3b8")
+
+
+@app.get("/api/outputs")
+def list_outputs():
+    """Return metadata for all processed output videos."""
+    results = []
+    outputs_dir = Path("outputs")
+    logs_dir    = Path("logs")
+
+    for vf in sorted(outputs_dir.glob("*.avi")) + sorted(outputs_dir.glob("*.mp4")):
+        # Build a readable title from filename
+        title = vf.stem.replace("_finetuned", "").replace("fecc9a75", "Traffic Scene 3") \
+                       .replace("_", " ").strip().title() or vf.stem
+
+        # Find best-matching log file
+        total_objects = 0
+        class_counts: dict = {}
+        for lf in sorted(logs_dir.glob("*.json")):
+            stem_key = vf.stem.replace("_finetuned", "").replace("-", "_")
+            if stem_key[:8].lower() in lf.name.lower() or vf.stem[:8].lower() in lf.name.lower():
+                try:
+                    data = json.loads(lf.read_text())
+                    dets = data.get("detections", data) if isinstance(data, dict) else data
+                    total_objects = len(dets)
+                    for d in dets:
+                        c = d.get("class_name") or d.get("class") or "unknown"
+                        class_counts[c] = class_counts.get(c, 0) + 1
+                except Exception:
+                    pass
+                break
+
+        dominant = max(class_counts, key=class_counts.get) if class_counts else "car"
+        results.append({
+            "filename":      vf.name,
+            "title":         title,
+            "total_objects": total_objects,
+            "dominant_class": dominant,
+            "class_counts":  class_counts,
+            "size_mb":       round(vf.stat().st_size / 1e6, 1),
+            "video_url":     f"/api/outputs/{vf.name}",
+            "thumbnail_url": f"/api/thumbnail/{vf.name}",
+        })
+    return jsonify(results)
+
+
+@app.get("/api/outputs/<path:filename>")
+def serve_output(filename):
+    path = Path("outputs") / filename
+    if not path.exists():
+        return jsonify({"error": "Not found"}), 404
+    return send_file(str(path.resolve()), mimetype="video/x-msvideo" if filename.endswith(".avi") else "video/mp4")
+
+
+@app.get("/api/thumbnail/<path:filename>")
+def serve_thumbnail(filename):
+    """Extract first frame of an output video and return as JPEG."""
+    path = Path("outputs") / filename
+    if not path.exists():
+        return jsonify({"error": "Not found"}), 404
+    cap = cv2.VideoCapture(str(path))
+    ok, frame = cap.read()
+    cap.release()
+    if not ok:
+        return jsonify({"error": "Cannot read frame"}), 500
+    _, jpeg = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 70])
+    return Response(jpeg.tobytes(), mimetype="image/jpeg")
 
 
 # ── Auto-start detection on server launch ─────────────────────────────────────
