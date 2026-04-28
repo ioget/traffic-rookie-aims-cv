@@ -1,7 +1,7 @@
-import { motion } from 'motion/react';
-import { ArrowRight, Play, CheckCircle2, Shield, Zap, BarChart3, Activity } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
+import { ArrowRight, Play, CheckCircle2, Shield, Zap, BarChart3, Activity, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const API = (import.meta as any).env?.VITE_API_URL ?? 'http://localhost:5000';
 
@@ -16,7 +16,9 @@ interface Scene {
 }
 
 export default function LandingPage() {
-  const [scenes, setScenes] = useState<Scene[]>([]);
+  const [scenes,       setScenes]       = useState<Scene[]>([]);
+  const [activeVideo,  setActiveVideo]  = useState<Scene | null>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     fetch(`${API}/api/outputs`)
@@ -24,6 +26,12 @@ export default function LandingPage() {
       .then(setScenes)
       .catch(() => {});
   }, []);
+
+  const openVideo = (scene: Scene) => setActiveVideo(scene);
+  const closeVideo = () => {
+    videoRef.current?.pause();
+    setActiveVideo(null);
+  };
 
   return (
     <div className="space-y-24 pb-16">
@@ -116,16 +124,14 @@ export default function LandingPage() {
                 </div>
 
                 {/* Play overlay */}
-                <a
-                  href={`${API}${scene.video_url}`}
-                  target="_blank"
-                  rel="noreferrer"
+                <button
+                  onClick={() => openVideo(scene)}
                   className="absolute inset-0 bg-primary-dark/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"
                 >
                   <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg scale-90 group-hover:scale-100 transition-transform">
                     <Play size={20} className="fill-primary-dark ml-1" />
                   </div>
-                </a>
+                </button>
 
                 <div className="absolute top-3 right-3">
                   <span className="status-tag status-processed">Processed</span>
@@ -177,6 +183,50 @@ export default function LandingPage() {
         <div className="absolute top-0 right-0 w-64 h-64 bg-accent-blue/10 rounded-full blur-3xl -mr-32 -mt-32" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent-blue/5 rounded-full blur-3xl -mr-48 -mb-48" />
       </section>
+      {/* Video Modal */}
+      <AnimatePresence>
+        {activeVideo && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center"
+            style={{ backgroundColor: 'rgba(0,0,0,0.75)' }}
+            onClick={closeVideo}
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1,   opacity: 1 }}
+              exit={{ scale: 0.9,   opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="relative w-full max-w-4xl mx-4"
+              onClick={e => e.stopPropagation()}
+            >
+              {/* Close button */}
+              <button
+                onClick={closeVideo}
+                className="absolute -top-10 right-0 w-9 h-9 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center text-white transition-colors z-10"
+              >
+                <X size={20} />
+              </button>
+
+              {/* Video title */}
+              <p className="text-white font-bold text-sm mb-2 font-mono uppercase tracking-widest opacity-70">
+                {activeVideo.title} &nbsp;·&nbsp; {activeVideo.total_objects.toLocaleString()} objects
+              </p>
+
+              <video
+                ref={videoRef}
+                src={`${API}${activeVideo.video_url}`}
+                controls
+                autoPlay
+                className="w-full rounded-2xl shadow-2xl bg-black"
+                style={{ maxHeight: '75vh' }}
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
