@@ -1,0 +1,5501 @@
+{
+  "detections": [
+    {
+      "timestamp": "2026-04-27T23:41:22.065058",
+      "frame_id": 0,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5522
+    },
+    {
+      "timestamp": "2026-04-27T23:41:35.353422",
+      "frame_id": 1,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        1,
+        75,
+        33
+      ],
+      "confidence": 0.5451
+    },
+    {
+      "timestamp": "2026-04-27T23:41:45.226407",
+      "frame_id": 2,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        1,
+        105,
+        33
+      ],
+      "confidence": 0.5016
+    },
+    {
+      "timestamp": "2026-04-27T23:41:49.990015",
+      "frame_id": 3,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        103,
+        33
+      ],
+      "confidence": 0.5741
+    },
+    {
+      "timestamp": "2026-04-27T23:41:57.750940",
+      "frame_id": 4,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        97,
+        33
+      ],
+      "confidence": 0.56
+    },
+    {
+      "timestamp": "2026-04-27T23:42:03.374227",
+      "frame_id": 5,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        89,
+        33
+      ],
+      "confidence": 0.6209
+    },
+    {
+      "timestamp": "2026-04-27T23:42:09.964356",
+      "frame_id": 6,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        82,
+        33
+      ],
+      "confidence": 0.6225
+    },
+    {
+      "timestamp": "2026-04-27T23:42:09.964356",
+      "frame_id": 6,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 2,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5452
+    },
+    {
+      "timestamp": "2026-04-27T23:42:14.734147",
+      "frame_id": 7,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 2,
+      "bbox": [
+        2,
+        3,
+        107,
+        33
+      ],
+      "confidence": 0.6535
+    },
+    {
+      "timestamp": "2026-04-27T23:42:27.984546",
+      "frame_id": 9,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        90,
+        33
+      ],
+      "confidence": 0.6563
+    },
+    {
+      "timestamp": "2026-04-27T23:42:32.487589",
+      "frame_id": 10,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        88,
+        33
+      ],
+      "confidence": 0.6539
+    },
+    {
+      "timestamp": "2026-04-27T23:42:35.113359",
+      "frame_id": 11,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        91,
+        33
+      ],
+      "confidence": 0.6538
+    },
+    {
+      "timestamp": "2026-04-27T23:42:37.521990",
+      "frame_id": 12,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        3,
+        3,
+        90,
+        33
+      ],
+      "confidence": 0.6349
+    },
+    {
+      "timestamp": "2026-04-27T23:42:42.376261",
+      "frame_id": 13,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        3,
+        3,
+        98,
+        33
+      ],
+      "confidence": 0.5648
+    },
+    {
+      "timestamp": "2026-04-27T23:42:46.178431",
+      "frame_id": 14,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        3,
+        3,
+        102,
+        33
+      ],
+      "confidence": 0.5231
+    },
+    {
+      "timestamp": "2026-04-27T23:42:49.973354",
+      "frame_id": 15,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        96,
+        33
+      ],
+      "confidence": 0.5205
+    },
+    {
+      "timestamp": "2026-04-27T23:42:56.072750",
+      "frame_id": 16,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        95,
+        33
+      ],
+      "confidence": 0.6341
+    },
+    {
+      "timestamp": "2026-04-27T23:43:07.081929",
+      "frame_id": 17,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        87,
+        33
+      ],
+      "confidence": 0.6514
+    },
+    {
+      "timestamp": "2026-04-27T23:43:17.162739",
+      "frame_id": 18,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        88,
+        33
+      ],
+      "confidence": 0.6378
+    },
+    {
+      "timestamp": "2026-04-27T23:43:22.183518",
+      "frame_id": 19,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        85,
+        33
+      ],
+      "confidence": 0.6623
+    },
+    {
+      "timestamp": "2026-04-27T23:43:26.054051",
+      "frame_id": 20,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        84,
+        33
+      ],
+      "confidence": 0.6897
+    },
+    {
+      "timestamp": "2026-04-27T23:43:26.054051",
+      "frame_id": 20,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.6281
+    },
+    {
+      "timestamp": "2026-04-27T23:43:27.669177",
+      "frame_id": 21,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        91,
+        33
+      ],
+      "confidence": 0.6097
+    },
+    {
+      "timestamp": "2026-04-27T23:43:30.372903",
+      "frame_id": 22,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        89,
+        33
+      ],
+      "confidence": 0.655
+    },
+    {
+      "timestamp": "2026-04-27T23:43:33.240274",
+      "frame_id": 23,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        85,
+        33
+      ],
+      "confidence": 0.668
+    },
+    {
+      "timestamp": "2026-04-27T23:43:33.240274",
+      "frame_id": 23,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.6123
+    },
+    {
+      "timestamp": "2026-04-27T23:43:36.053131",
+      "frame_id": 24,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        80,
+        33
+      ],
+      "confidence": 0.6726
+    },
+    {
+      "timestamp": "2026-04-27T23:43:36.053131",
+      "frame_id": 24,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        116,
+        34
+      ],
+      "confidence": 0.5896
+    },
+    {
+      "timestamp": "2026-04-27T23:43:55.732380",
+      "frame_id": 27,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 5,
+      "bbox": [
+        144,
+        55,
+        150,
+        61
+      ],
+      "confidence": 0.5202
+    },
+    {
+      "timestamp": "2026-04-27T23:44:00.532859",
+      "frame_id": 28,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 5,
+      "bbox": [
+        144,
+        55,
+        150,
+        61
+      ],
+      "confidence": 0.5103
+    },
+    {
+      "timestamp": "2026-04-27T23:44:05.528973",
+      "frame_id": 30,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 5,
+      "bbox": [
+        144,
+        55,
+        150,
+        61
+      ],
+      "confidence": 0.4599
+    },
+    {
+      "timestamp": "2026-04-27T23:44:20.908246",
+      "frame_id": 34,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 5,
+      "bbox": [
+        144,
+        55,
+        152,
+        61
+      ],
+      "confidence": 0.4721
+    },
+    {
+      "timestamp": "2026-04-27T23:45:02.262411",
+      "frame_id": 47,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 5,
+      "bbox": [
+        144,
+        55,
+        152,
+        62
+      ],
+      "confidence": 0.4756
+    },
+    {
+      "timestamp": "2026-04-27T23:45:08.722424",
+      "frame_id": 48,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 5,
+      "bbox": [
+        144,
+        55,
+        154,
+        62
+      ],
+      "confidence": 0.5284
+    },
+    {
+      "timestamp": "2026-04-27T23:45:14.332549",
+      "frame_id": 50,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        76,
+        33
+      ],
+      "confidence": 0.5898
+    },
+    {
+      "timestamp": "2026-04-27T23:45:14.332549",
+      "frame_id": 50,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        118,
+        34
+      ],
+      "confidence": 0.4971
+    },
+    {
+      "timestamp": "2026-04-27T23:45:17.111101",
+      "frame_id": 51,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        80,
+        33
+      ],
+      "confidence": 0.5512
+    },
+    {
+      "timestamp": "2026-04-27T23:45:17.111101",
+      "frame_id": 51,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.4899
+    },
+    {
+      "timestamp": "2026-04-27T23:45:20.116278",
+      "frame_id": 52,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        84,
+        33
+      ],
+      "confidence": 0.5556
+    },
+    {
+      "timestamp": "2026-04-27T23:45:20.116278",
+      "frame_id": 52,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5064
+    },
+    {
+      "timestamp": "2026-04-27T23:45:24.989135",
+      "frame_id": 53,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        80,
+        33
+      ],
+      "confidence": 0.6065
+    },
+    {
+      "timestamp": "2026-04-27T23:45:24.989135",
+      "frame_id": 53,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5183
+    },
+    {
+      "timestamp": "2026-04-27T23:45:28.217579",
+      "frame_id": 54,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        76,
+        33
+      ],
+      "confidence": 0.5182
+    },
+    {
+      "timestamp": "2026-04-27T23:45:31.539253",
+      "frame_id": 55,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.469
+    },
+    {
+      "timestamp": "2026-04-27T23:45:37.379317",
+      "frame_id": 56,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        73,
+        33
+      ],
+      "confidence": 0.5235
+    },
+    {
+      "timestamp": "2026-04-27T23:45:37.379317",
+      "frame_id": 56,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 6,
+      "bbox": [
+        102,
+        79,
+        112,
+        87
+      ],
+      "confidence": 0.5234
+    },
+    {
+      "timestamp": "2026-04-27T23:45:43.271833",
+      "frame_id": 57,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        73,
+        33
+      ],
+      "confidence": 0.542
+    },
+    {
+      "timestamp": "2026-04-27T23:45:43.271833",
+      "frame_id": 57,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 6,
+      "bbox": [
+        102,
+        79,
+        112,
+        88
+      ],
+      "confidence": 0.6359
+    },
+    {
+      "timestamp": "2026-04-27T23:45:47.645186",
+      "frame_id": 58,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        76,
+        33
+      ],
+      "confidence": 0.4549
+    },
+    {
+      "timestamp": "2026-04-27T23:46:29.827505",
+      "frame_id": 71,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5167
+    },
+    {
+      "timestamp": "2026-04-27T23:46:33.283199",
+      "frame_id": 72,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        76,
+        33
+      ],
+      "confidence": 0.5628
+    },
+    {
+      "timestamp": "2026-04-27T23:46:33.283199",
+      "frame_id": 72,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        117,
+        34
+      ],
+      "confidence": 0.4622
+    },
+    {
+      "timestamp": "2026-04-27T23:46:36.102775",
+      "frame_id": 73,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        86,
+        33
+      ],
+      "confidence": 0.57
+    },
+    {
+      "timestamp": "2026-04-27T23:46:39.660498",
+      "frame_id": 74,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        80,
+        33
+      ],
+      "confidence": 0.581
+    },
+    {
+      "timestamp": "2026-04-27T23:46:39.660498",
+      "frame_id": 74,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        117,
+        34
+      ],
+      "confidence": 0.4685
+    },
+    {
+      "timestamp": "2026-04-27T23:46:42.413872",
+      "frame_id": 75,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        76,
+        33
+      ],
+      "confidence": 0.6344
+    },
+    {
+      "timestamp": "2026-04-27T23:46:42.413872",
+      "frame_id": 75,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        113,
+        34
+      ],
+      "confidence": 0.4852
+    },
+    {
+      "timestamp": "2026-04-27T23:46:50.079468",
+      "frame_id": 76,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.5756
+    },
+    {
+      "timestamp": "2026-04-27T23:46:54.036526",
+      "frame_id": 77,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.6018
+    },
+    {
+      "timestamp": "2026-04-27T23:46:58.616418",
+      "frame_id": 78,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        73,
+        33
+      ],
+      "confidence": 0.6373
+    },
+    {
+      "timestamp": "2026-04-27T23:46:58.616418",
+      "frame_id": 78,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        113,
+        34
+      ],
+      "confidence": 0.492
+    },
+    {
+      "timestamp": "2026-04-27T23:47:01.133951",
+      "frame_id": 79,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.6488
+    },
+    {
+      "timestamp": "2026-04-27T23:47:01.133951",
+      "frame_id": 79,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        110,
+        34
+      ],
+      "confidence": 0.4654
+    },
+    {
+      "timestamp": "2026-04-27T23:47:04.392355",
+      "frame_id": 80,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        73,
+        33
+      ],
+      "confidence": 0.6036
+    },
+    {
+      "timestamp": "2026-04-27T23:47:04.392355",
+      "frame_id": 80,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 4,
+      "bbox": [
+        2,
+        2,
+        112,
+        34
+      ],
+      "confidence": 0.4529
+    },
+    {
+      "timestamp": "2026-04-27T23:47:08.141072",
+      "frame_id": 81,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        73,
+        33
+      ],
+      "confidence": 0.6342
+    },
+    {
+      "timestamp": "2026-04-27T23:47:10.657172",
+      "frame_id": 82,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6932
+    },
+    {
+      "timestamp": "2026-04-27T23:47:15.164496",
+      "frame_id": 83,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7086
+    },
+    {
+      "timestamp": "2026-04-27T23:47:20.787956",
+      "frame_id": 84,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.72
+    },
+    {
+      "timestamp": "2026-04-27T23:47:25.525263",
+      "frame_id": 85,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6978
+    },
+    {
+      "timestamp": "2026-04-27T23:47:28.215981",
+      "frame_id": 86,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.682
+    },
+    {
+      "timestamp": "2026-04-27T23:47:28.215981",
+      "frame_id": 86,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        117,
+        98,
+        135,
+        111
+      ],
+      "confidence": 0.5027
+    },
+    {
+      "timestamp": "2026-04-27T23:47:32.436163",
+      "frame_id": 87,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7073
+    },
+    {
+      "timestamp": "2026-04-27T23:47:32.436163",
+      "frame_id": 87,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        118,
+        99,
+        136,
+        112
+      ],
+      "confidence": 0.5312
+    },
+    {
+      "timestamp": "2026-04-27T23:47:35.965767",
+      "frame_id": 88,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7126
+    },
+    {
+      "timestamp": "2026-04-27T23:47:35.965767",
+      "frame_id": 88,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        119,
+        100,
+        137,
+        112
+      ],
+      "confidence": 0.6433
+    },
+    {
+      "timestamp": "2026-04-27T23:47:40.760153",
+      "frame_id": 89,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7671
+    },
+    {
+      "timestamp": "2026-04-27T23:47:40.760153",
+      "frame_id": 89,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        121,
+        101,
+        138,
+        113
+      ],
+      "confidence": 0.6536
+    },
+    {
+      "timestamp": "2026-04-27T23:47:46.666921",
+      "frame_id": 90,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7293
+    },
+    {
+      "timestamp": "2026-04-27T23:47:46.666921",
+      "frame_id": 90,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        122,
+        102,
+        140,
+        115
+      ],
+      "confidence": 0.5546
+    },
+    {
+      "timestamp": "2026-04-27T23:47:52.271974",
+      "frame_id": 91,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.723
+    },
+    {
+      "timestamp": "2026-04-27T23:47:59.484684",
+      "frame_id": 92,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6549
+    },
+    {
+      "timestamp": "2026-04-27T23:48:02.350860",
+      "frame_id": 93,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6351
+    },
+    {
+      "timestamp": "2026-04-27T23:48:05.674698",
+      "frame_id": 94,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        32
+      ],
+      "confidence": 0.6735
+    },
+    {
+      "timestamp": "2026-04-27T23:48:05.674698",
+      "frame_id": 94,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        128,
+        108,
+        148,
+        125
+      ],
+      "confidence": 0.5733
+    },
+    {
+      "timestamp": "2026-04-27T23:48:08.851841",
+      "frame_id": 95,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        32
+      ],
+      "confidence": 0.6713
+    },
+    {
+      "timestamp": "2026-04-27T23:48:11.274843",
+      "frame_id": 96,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        32
+      ],
+      "confidence": 0.7024
+    },
+    {
+      "timestamp": "2026-04-27T23:48:11.274843",
+      "frame_id": 96,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 7,
+      "bbox": [
+        128,
+        111,
+        150,
+        128
+      ],
+      "confidence": 0.5546
+    },
+    {
+      "timestamp": "2026-04-27T23:48:14.454072",
+      "frame_id": 97,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6465
+    },
+    {
+      "timestamp": "2026-04-27T23:48:18.225138",
+      "frame_id": 98,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6246
+    },
+    {
+      "timestamp": "2026-04-27T23:48:20.840519",
+      "frame_id": 99,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6519
+    },
+    {
+      "timestamp": "2026-04-27T23:48:24.224996",
+      "frame_id": 100,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6717
+    },
+    {
+      "timestamp": "2026-04-27T23:48:30.679264",
+      "frame_id": 101,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6514
+    },
+    {
+      "timestamp": "2026-04-27T23:48:38.485432",
+      "frame_id": 102,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6377
+    },
+    {
+      "timestamp": "2026-04-27T23:48:41.546924",
+      "frame_id": 103,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6495
+    },
+    {
+      "timestamp": "2026-04-27T23:48:45.325718",
+      "frame_id": 104,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6283
+    },
+    {
+      "timestamp": "2026-04-27T23:48:49.293320",
+      "frame_id": 105,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5823
+    },
+    {
+      "timestamp": "2026-04-27T23:48:53.906713",
+      "frame_id": 106,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6118
+    },
+    {
+      "timestamp": "2026-04-27T23:49:00.553211",
+      "frame_id": 107,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6084
+    },
+    {
+      "timestamp": "2026-04-27T23:49:03.759853",
+      "frame_id": 108,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6283
+    },
+    {
+      "timestamp": "2026-04-27T23:49:09.738052",
+      "frame_id": 109,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5966
+    },
+    {
+      "timestamp": "2026-04-27T23:49:12.350371",
+      "frame_id": 110,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6147
+    },
+    {
+      "timestamp": "2026-04-27T23:49:17.100353",
+      "frame_id": 111,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6023
+    },
+    {
+      "timestamp": "2026-04-27T23:49:21.669870",
+      "frame_id": 112,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5679
+    },
+    {
+      "timestamp": "2026-04-27T23:49:29.290188",
+      "frame_id": 113,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5961
+    },
+    {
+      "timestamp": "2026-04-27T23:49:31.921081",
+      "frame_id": 114,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5793
+    },
+    {
+      "timestamp": "2026-04-27T23:49:37.378709",
+      "frame_id": 115,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5714
+    },
+    {
+      "timestamp": "2026-04-27T23:49:44.833179",
+      "frame_id": 116,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5868
+    },
+    {
+      "timestamp": "2026-04-27T23:49:49.079963",
+      "frame_id": 117,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7018
+    },
+    {
+      "timestamp": "2026-04-27T23:49:53.110109",
+      "frame_id": 118,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.647
+    },
+    {
+      "timestamp": "2026-04-27T23:49:58.086419",
+      "frame_id": 119,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6945
+    },
+    {
+      "timestamp": "2026-04-27T23:50:01.912047",
+      "frame_id": 120,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7268
+    },
+    {
+      "timestamp": "2026-04-27T23:50:06.691537",
+      "frame_id": 121,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.69
+    },
+    {
+      "timestamp": "2026-04-27T23:50:12.250637",
+      "frame_id": 122,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6941
+    },
+    {
+      "timestamp": "2026-04-27T23:50:12.250637",
+      "frame_id": 122,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 11,
+      "bbox": [
+        201,
+        24,
+        222,
+        32
+      ],
+      "confidence": 0.4907
+    },
+    {
+      "timestamp": "2026-04-27T23:50:14.929605",
+      "frame_id": 123,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6793
+    },
+    {
+      "timestamp": "2026-04-27T23:50:14.929605",
+      "frame_id": 123,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 11,
+      "bbox": [
+        201,
+        24,
+        222,
+        32
+      ],
+      "confidence": 0.4928
+    },
+    {
+      "timestamp": "2026-04-27T23:50:19.350409",
+      "frame_id": 124,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6815
+    },
+    {
+      "timestamp": "2026-04-27T23:50:19.350409",
+      "frame_id": 124,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 11,
+      "bbox": [
+        201,
+        24,
+        222,
+        32
+      ],
+      "confidence": 0.4747
+    },
+    {
+      "timestamp": "2026-04-27T23:50:22.245810",
+      "frame_id": 125,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        80,
+        33
+      ],
+      "confidence": 0.4594
+    },
+    {
+      "timestamp": "2026-04-27T23:50:26.687253",
+      "frame_id": 126,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        80,
+        33
+      ],
+      "confidence": 0.4701
+    },
+    {
+      "timestamp": "2026-04-27T23:50:28.578571",
+      "frame_id": 127,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        106,
+        33
+      ],
+      "confidence": 0.457
+    },
+    {
+      "timestamp": "2026-04-27T23:50:30.650524",
+      "frame_id": 128,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        106,
+        33
+      ],
+      "confidence": 0.4754
+    },
+    {
+      "timestamp": "2026-04-27T23:50:34.303260",
+      "frame_id": 129,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        101,
+        33
+      ],
+      "confidence": 0.4796
+    },
+    {
+      "timestamp": "2026-04-27T23:50:44.714424",
+      "frame_id": 130,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        94,
+        33
+      ],
+      "confidence": 0.5216
+    },
+    {
+      "timestamp": "2026-04-27T23:50:50.569000",
+      "frame_id": 131,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        94,
+        33
+      ],
+      "confidence": 0.5231
+    },
+    {
+      "timestamp": "2026-04-27T23:50:55.013331",
+      "frame_id": 132,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        93,
+        33
+      ],
+      "confidence": 0.56
+    },
+    {
+      "timestamp": "2026-04-27T23:51:01.026897",
+      "frame_id": 133,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        84,
+        33
+      ],
+      "confidence": 0.5489
+    },
+    {
+      "timestamp": "2026-04-27T23:51:05.647149",
+      "frame_id": 134,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        108,
+        33
+      ],
+      "confidence": 0.5271
+    },
+    {
+      "timestamp": "2026-04-27T23:51:09.658571",
+      "frame_id": 135,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        116,
+        34
+      ],
+      "confidence": 0.4847
+    },
+    {
+      "timestamp": "2026-04-27T23:51:14.539176",
+      "frame_id": 136,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        101,
+        33
+      ],
+      "confidence": 0.567
+    },
+    {
+      "timestamp": "2026-04-27T23:51:18.593800",
+      "frame_id": 137,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        3,
+        95,
+        33
+      ],
+      "confidence": 0.5579
+    },
+    {
+      "timestamp": "2026-04-27T23:51:23.958703",
+      "frame_id": 138,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        112,
+        34
+      ],
+      "confidence": 0.5584
+    },
+    {
+      "timestamp": "2026-04-27T23:51:29.379812",
+      "frame_id": 139,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        118,
+        34
+      ],
+      "confidence": 0.5194
+    },
+    {
+      "timestamp": "2026-04-27T23:51:35.522635",
+      "frame_id": 140,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.5667
+    },
+    {
+      "timestamp": "2026-04-27T23:51:40.213004",
+      "frame_id": 141,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        110,
+        33
+      ],
+      "confidence": 0.5182
+    },
+    {
+      "timestamp": "2026-04-27T23:51:47.586510",
+      "frame_id": 142,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        117,
+        34
+      ],
+      "confidence": 0.4818
+    },
+    {
+      "timestamp": "2026-04-27T23:51:53.686218",
+      "frame_id": 143,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.466
+    },
+    {
+      "timestamp": "2026-04-27T23:52:05.150080",
+      "frame_id": 144,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        108,
+        33
+      ],
+      "confidence": 0.503
+    },
+    {
+      "timestamp": "2026-04-27T23:52:11.045666",
+      "frame_id": 145,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        116,
+        34
+      ],
+      "confidence": 0.5264
+    },
+    {
+      "timestamp": "2026-04-27T23:52:14.990110",
+      "frame_id": 146,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5162
+    },
+    {
+      "timestamp": "2026-04-27T23:52:21.259647",
+      "frame_id": 147,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.5433
+    },
+    {
+      "timestamp": "2026-04-27T23:52:27.422354",
+      "frame_id": 148,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.5199
+    },
+    {
+      "timestamp": "2026-04-27T23:52:34.717797",
+      "frame_id": 149,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.548
+    },
+    {
+      "timestamp": "2026-04-27T23:52:34.717797",
+      "frame_id": 149,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        83,
+        33
+      ],
+      "confidence": 0.5767
+    },
+    {
+      "timestamp": "2026-04-27T23:52:38.283899",
+      "frame_id": 150,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.5788
+    },
+    {
+      "timestamp": "2026-04-27T23:52:44.836687",
+      "frame_id": 151,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.5433
+    },
+    {
+      "timestamp": "2026-04-27T23:52:47.224327",
+      "frame_id": 152,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        120,
+        34
+      ],
+      "confidence": 0.5613
+    },
+    {
+      "timestamp": "2026-04-27T23:52:49.842611",
+      "frame_id": 153,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5133
+    },
+    {
+      "timestamp": "2026-04-27T23:52:55.138380",
+      "frame_id": 154,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.4969
+    },
+    {
+      "timestamp": "2026-04-27T23:52:59.608043",
+      "frame_id": 155,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.5037
+    },
+    {
+      "timestamp": "2026-04-27T23:53:04.630625",
+      "frame_id": 156,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.522
+    },
+    {
+      "timestamp": "2026-04-27T23:53:07.575887",
+      "frame_id": 157,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.4842
+    },
+    {
+      "timestamp": "2026-04-27T23:53:13.434356",
+      "frame_id": 158,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.4704
+    },
+    {
+      "timestamp": "2026-04-27T23:53:17.951340",
+      "frame_id": 159,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.4969
+    },
+    {
+      "timestamp": "2026-04-27T23:53:21.480599",
+      "frame_id": 160,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.4784
+    },
+    {
+      "timestamp": "2026-04-27T23:53:26.290776",
+      "frame_id": 161,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.5004
+    },
+    {
+      "timestamp": "2026-04-27T23:53:28.415098",
+      "frame_id": 162,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.4827
+    },
+    {
+      "timestamp": "2026-04-27T23:53:32.317402",
+      "frame_id": 163,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.545
+    },
+    {
+      "timestamp": "2026-04-27T23:53:36.102559",
+      "frame_id": 164,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        33
+      ],
+      "confidence": 0.5388
+    },
+    {
+      "timestamp": "2026-04-27T23:53:39.961197",
+      "frame_id": 165,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        118,
+        33
+      ],
+      "confidence": 0.5171
+    },
+    {
+      "timestamp": "2026-04-27T23:53:44.685406",
+      "frame_id": 166,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        117,
+        33
+      ],
+      "confidence": 0.5357
+    },
+    {
+      "timestamp": "2026-04-27T23:53:48.967755",
+      "frame_id": 167,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5584
+    },
+    {
+      "timestamp": "2026-04-27T23:53:54.885717",
+      "frame_id": 168,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        118,
+        33
+      ],
+      "confidence": 0.5621
+    },
+    {
+      "timestamp": "2026-04-27T23:54:00.880699",
+      "frame_id": 169,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        118,
+        33
+      ],
+      "confidence": 0.5813
+    },
+    {
+      "timestamp": "2026-04-27T23:54:04.337265",
+      "frame_id": 170,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        118,
+        33
+      ],
+      "confidence": 0.5236
+    },
+    {
+      "timestamp": "2026-04-27T23:54:07.589569",
+      "frame_id": 171,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5665
+    },
+    {
+      "timestamp": "2026-04-27T23:54:12.239668",
+      "frame_id": 172,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5434
+    },
+    {
+      "timestamp": "2026-04-27T23:54:17.121967",
+      "frame_id": 173,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.5351
+    },
+    {
+      "timestamp": "2026-04-27T23:54:22.286831",
+      "frame_id": 174,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        119,
+        34
+      ],
+      "confidence": 0.4972
+    },
+    {
+      "timestamp": "2026-04-27T23:54:28.442941",
+      "frame_id": 175,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7284
+    },
+    {
+      "timestamp": "2026-04-27T23:54:34.850495",
+      "frame_id": 176,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7328
+    },
+    {
+      "timestamp": "2026-04-27T23:54:38.837430",
+      "frame_id": 177,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7214
+    },
+    {
+      "timestamp": "2026-04-27T23:54:42.876544",
+      "frame_id": 178,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7527
+    },
+    {
+      "timestamp": "2026-04-27T23:54:47.262565",
+      "frame_id": 179,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7338
+    },
+    {
+      "timestamp": "2026-04-27T23:54:47.262565",
+      "frame_id": 179,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 1,
+      "bbox": [
+        2,
+        2,
+        114,
+        34
+      ],
+      "confidence": 0.4803
+    },
+    {
+      "timestamp": "2026-04-27T23:54:49.455558",
+      "frame_id": 180,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7602
+    },
+    {
+      "timestamp": "2026-04-27T23:54:54.015649",
+      "frame_id": 181,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.7705
+    },
+    {
+      "timestamp": "2026-04-27T23:54:58.418436",
+      "frame_id": 182,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.7673
+    },
+    {
+      "timestamp": "2026-04-27T23:55:00.410026",
+      "frame_id": 183,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.7658
+    },
+    {
+      "timestamp": "2026-04-27T23:55:06.382191",
+      "frame_id": 184,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.7759
+    },
+    {
+      "timestamp": "2026-04-27T23:55:15.501861",
+      "frame_id": 185,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.805
+    },
+    {
+      "timestamp": "2026-04-27T23:55:20.922701",
+      "frame_id": 186,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.8309
+    },
+    {
+      "timestamp": "2026-04-27T23:55:27.428221",
+      "frame_id": 187,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.832
+    },
+    {
+      "timestamp": "2026-04-27T23:55:31.061092",
+      "frame_id": 188,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.8254
+    },
+    {
+      "timestamp": "2026-04-27T23:55:40.311241",
+      "frame_id": 189,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7986
+    },
+    {
+      "timestamp": "2026-04-27T23:55:47.297589",
+      "frame_id": 190,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        33
+      ],
+      "confidence": 0.7911
+    },
+    {
+      "timestamp": "2026-04-27T23:55:52.653087",
+      "frame_id": 191,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.786
+    },
+    {
+      "timestamp": "2026-04-27T23:56:00.539409",
+      "frame_id": 192,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.7668
+    },
+    {
+      "timestamp": "2026-04-27T23:56:05.916782",
+      "frame_id": 193,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5971
+    },
+    {
+      "timestamp": "2026-04-27T23:56:12.520601",
+      "frame_id": 194,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6891
+    },
+    {
+      "timestamp": "2026-04-27T23:56:19.081441",
+      "frame_id": 195,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5646
+    },
+    {
+      "timestamp": "2026-04-27T23:56:23.566564",
+      "frame_id": 196,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6387
+    },
+    {
+      "timestamp": "2026-04-27T23:56:28.335723",
+      "frame_id": 197,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6884
+    },
+    {
+      "timestamp": "2026-04-27T23:56:31.707615",
+      "frame_id": 198,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6792
+    },
+    {
+      "timestamp": "2026-04-27T23:56:37.258018",
+      "frame_id": 199,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6202
+    },
+    {
+      "timestamp": "2026-04-27T23:56:39.691457",
+      "frame_id": 200,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.7214
+    },
+    {
+      "timestamp": "2026-04-27T23:56:43.411848",
+      "frame_id": 201,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.7194
+    },
+    {
+      "timestamp": "2026-04-27T23:56:48.310926",
+      "frame_id": 202,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.7218
+    },
+    {
+      "timestamp": "2026-04-27T23:56:53.860258",
+      "frame_id": 203,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.665
+    },
+    {
+      "timestamp": "2026-04-27T23:56:59.780177",
+      "frame_id": 204,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6442
+    },
+    {
+      "timestamp": "2026-04-27T23:57:02.507825",
+      "frame_id": 205,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6132
+    },
+    {
+      "timestamp": "2026-04-27T23:57:06.069812",
+      "frame_id": 206,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7247
+    },
+    {
+      "timestamp": "2026-04-27T23:57:09.036978",
+      "frame_id": 207,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7039
+    },
+    {
+      "timestamp": "2026-04-27T23:57:11.963566",
+      "frame_id": 208,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7063
+    },
+    {
+      "timestamp": "2026-04-27T23:57:17.665417",
+      "frame_id": 209,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7023
+    },
+    {
+      "timestamp": "2026-04-27T23:57:20.476959",
+      "frame_id": 210,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6512
+    },
+    {
+      "timestamp": "2026-04-27T23:57:24.283746",
+      "frame_id": 211,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.593
+    },
+    {
+      "timestamp": "2026-04-27T23:57:28.627627",
+      "frame_id": 212,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5669
+    },
+    {
+      "timestamp": "2026-04-27T23:57:30.917205",
+      "frame_id": 213,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.4926
+    },
+    {
+      "timestamp": "2026-04-27T23:57:33.773025",
+      "frame_id": 214,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5456
+    },
+    {
+      "timestamp": "2026-04-27T23:57:35.595722",
+      "frame_id": 215,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5156
+    },
+    {
+      "timestamp": "2026-04-27T23:58:03.719290",
+      "frame_id": 223,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        32
+      ],
+      "confidence": 0.4512
+    },
+    {
+      "timestamp": "2026-04-27T23:59:19.036550",
+      "frame_id": 245,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        115,
+        33
+      ],
+      "confidence": 0.4521
+    },
+    {
+      "timestamp": "2026-04-27T23:59:37.974542",
+      "frame_id": 250,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        81,
+        32
+      ],
+      "confidence": 0.5362
+    },
+    {
+      "timestamp": "2026-04-27T23:59:41.329039",
+      "frame_id": 251,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        76,
+        32
+      ],
+      "confidence": 0.5196
+    },
+    {
+      "timestamp": "2026-04-27T23:59:44.010900",
+      "frame_id": 252,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5423
+    },
+    {
+      "timestamp": "2026-04-27T23:59:49.767453",
+      "frame_id": 253,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5362
+    },
+    {
+      "timestamp": "2026-04-27T23:59:54.460586",
+      "frame_id": 254,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.5047
+    },
+    {
+      "timestamp": "2026-04-28T00:00:00.964525",
+      "frame_id": 255,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5113
+    },
+    {
+      "timestamp": "2026-04-28T00:00:46.478851",
+      "frame_id": 265,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        74,
+        32
+      ],
+      "confidence": 0.4793
+    },
+    {
+      "timestamp": "2026-04-28T00:00:50.525934",
+      "frame_id": 266,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        74,
+        32
+      ],
+      "confidence": 0.4593
+    },
+    {
+      "timestamp": "2026-04-28T00:01:13.867449",
+      "frame_id": 268,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.5279
+    },
+    {
+      "timestamp": "2026-04-28T00:01:19.510794",
+      "frame_id": 269,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.5215
+    },
+    {
+      "timestamp": "2026-04-28T00:01:28.644718",
+      "frame_id": 270,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.5303
+    },
+    {
+      "timestamp": "2026-04-28T00:01:34.006457",
+      "frame_id": 271,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        32
+      ],
+      "confidence": 0.5284
+    },
+    {
+      "timestamp": "2026-04-28T00:01:36.692927",
+      "frame_id": 272,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.4937
+    },
+    {
+      "timestamp": "2026-04-28T00:01:38.650432",
+      "frame_id": 273,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.4917
+    },
+    {
+      "timestamp": "2026-04-28T00:02:29.648557",
+      "frame_id": 284,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.4664
+    },
+    {
+      "timestamp": "2026-04-28T00:02:38.327150",
+      "frame_id": 285,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.455
+    },
+    {
+      "timestamp": "2026-04-28T00:03:08.610191",
+      "frame_id": 288,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.4665
+    },
+    {
+      "timestamp": "2026-04-28T00:03:24.926926",
+      "frame_id": 289,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.6112
+    },
+    {
+      "timestamp": "2026-04-28T00:03:33.009248",
+      "frame_id": 290,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5161
+    },
+    {
+      "timestamp": "2026-04-28T00:03:45.374871",
+      "frame_id": 292,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        103,
+        78,
+        113,
+        87
+      ],
+      "confidence": 0.5033
+    },
+    {
+      "timestamp": "2026-04-28T00:03:45.374871",
+      "frame_id": 292,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.4699
+    },
+    {
+      "timestamp": "2026-04-28T00:04:07.375219",
+      "frame_id": 295,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        104,
+        79,
+        114,
+        89
+      ],
+      "confidence": 0.4592
+    },
+    {
+      "timestamp": "2026-04-28T00:04:21.698583",
+      "frame_id": 298,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        106,
+        79,
+        116,
+        88
+      ],
+      "confidence": 0.467
+    },
+    {
+      "timestamp": "2026-04-28T00:04:27.503882",
+      "frame_id": 300,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5746
+    },
+    {
+      "timestamp": "2026-04-28T00:04:27.503882",
+      "frame_id": 300,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        107,
+        81,
+        118,
+        93
+      ],
+      "confidence": 0.6149
+    },
+    {
+      "timestamp": "2026-04-28T00:04:28.876579",
+      "frame_id": 301,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.574
+    },
+    {
+      "timestamp": "2026-04-28T00:04:35.906646",
+      "frame_id": 302,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5989
+    },
+    {
+      "timestamp": "2026-04-28T00:04:39.555693",
+      "frame_id": 303,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.539
+    },
+    {
+      "timestamp": "2026-04-28T00:04:44.414901",
+      "frame_id": 304,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5087
+    },
+    {
+      "timestamp": "2026-04-28T00:04:44.414901",
+      "frame_id": 304,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        109,
+        82,
+        120,
+        91
+      ],
+      "confidence": 0.5794
+    },
+    {
+      "timestamp": "2026-04-28T00:04:49.347248",
+      "frame_id": 305,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5675
+    },
+    {
+      "timestamp": "2026-04-28T00:04:52.178661",
+      "frame_id": 306,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5547
+    },
+    {
+      "timestamp": "2026-04-28T00:04:57.897240",
+      "frame_id": 307,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5445
+    },
+    {
+      "timestamp": "2026-04-28T00:04:57.897240",
+      "frame_id": 307,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        111,
+        85,
+        123,
+        96
+      ],
+      "confidence": 0.6535
+    },
+    {
+      "timestamp": "2026-04-28T00:05:04.656551",
+      "frame_id": 308,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5338
+    },
+    {
+      "timestamp": "2026-04-28T00:05:04.656551",
+      "frame_id": 308,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        111,
+        86,
+        123,
+        96
+      ],
+      "confidence": 0.606
+    },
+    {
+      "timestamp": "2026-04-28T00:05:09.273505",
+      "frame_id": 309,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5301
+    },
+    {
+      "timestamp": "2026-04-28T00:05:09.273505",
+      "frame_id": 309,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        112,
+        86,
+        124,
+        96
+      ],
+      "confidence": 0.5876
+    },
+    {
+      "timestamp": "2026-04-28T00:05:11.917041",
+      "frame_id": 310,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5173
+    },
+    {
+      "timestamp": "2026-04-28T00:05:11.917041",
+      "frame_id": 310,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        113,
+        87,
+        125,
+        96
+      ],
+      "confidence": 0.5187
+    },
+    {
+      "timestamp": "2026-04-28T00:05:16.258029",
+      "frame_id": 311,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6552
+    },
+    {
+      "timestamp": "2026-04-28T00:05:16.258029",
+      "frame_id": 311,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        113,
+        88,
+        126,
+        98
+      ],
+      "confidence": 0.4824
+    },
+    {
+      "timestamp": "2026-04-28T00:05:16.258029",
+      "frame_id": 311,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        113,
+        88,
+        126,
+        101
+      ],
+      "confidence": 0.5777
+    },
+    {
+      "timestamp": "2026-04-28T00:05:18.795016",
+      "frame_id": 312,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5899
+    },
+    {
+      "timestamp": "2026-04-28T00:05:18.795016",
+      "frame_id": 312,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 25,
+      "bbox": [
+        114,
+        88,
+        127,
+        98
+      ],
+      "confidence": 0.4538
+    },
+    {
+      "timestamp": "2026-04-28T00:05:18.795016",
+      "frame_id": 312,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        114,
+        90,
+        128,
+        103
+      ],
+      "confidence": 0.6781
+    },
+    {
+      "timestamp": "2026-04-28T00:05:22.833719",
+      "frame_id": 313,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6155
+    },
+    {
+      "timestamp": "2026-04-28T00:05:22.833719",
+      "frame_id": 313,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        115,
+        90,
+        129,
+        105
+      ],
+      "confidence": 0.6529
+    },
+    {
+      "timestamp": "2026-04-28T00:05:29.554993",
+      "frame_id": 314,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5999
+    },
+    {
+      "timestamp": "2026-04-28T00:05:29.554993",
+      "frame_id": 314,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        117,
+        94,
+        131,
+        106
+      ],
+      "confidence": 0.5592
+    },
+    {
+      "timestamp": "2026-04-28T00:05:36.059252",
+      "frame_id": 315,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6104
+    },
+    {
+      "timestamp": "2026-04-28T00:05:36.059252",
+      "frame_id": 315,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        117,
+        94,
+        132,
+        106
+      ],
+      "confidence": 0.5655
+    },
+    {
+      "timestamp": "2026-04-28T00:05:39.640973",
+      "frame_id": 316,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6806
+    },
+    {
+      "timestamp": "2026-04-28T00:05:39.640973",
+      "frame_id": 316,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        118,
+        94,
+        133,
+        107
+      ],
+      "confidence": 0.4798
+    },
+    {
+      "timestamp": "2026-04-28T00:05:40.889976",
+      "frame_id": 317,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.7204
+    },
+    {
+      "timestamp": "2026-04-28T00:05:43.915564",
+      "frame_id": 318,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6739
+    },
+    {
+      "timestamp": "2026-04-28T00:05:43.915564",
+      "frame_id": 318,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        120,
+        97,
+        135,
+        111
+      ],
+      "confidence": 0.4534
+    },
+    {
+      "timestamp": "2026-04-28T00:05:47.910708",
+      "frame_id": 319,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.653
+    },
+    {
+      "timestamp": "2026-04-28T00:05:47.910708",
+      "frame_id": 319,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        120,
+        96,
+        136,
+        111
+      ],
+      "confidence": 0.5358
+    },
+    {
+      "timestamp": "2026-04-28T00:05:52.594506",
+      "frame_id": 320,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6999
+    },
+    {
+      "timestamp": "2026-04-28T00:05:52.594506",
+      "frame_id": 320,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        121,
+        97,
+        137,
+        112
+      ],
+      "confidence": 0.6218
+    },
+    {
+      "timestamp": "2026-04-28T00:05:59.464252",
+      "frame_id": 321,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6895
+    },
+    {
+      "timestamp": "2026-04-28T00:05:59.464252",
+      "frame_id": 321,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        123,
+        99,
+        139,
+        113
+      ],
+      "confidence": 0.5422
+    },
+    {
+      "timestamp": "2026-04-28T00:06:02.063559",
+      "frame_id": 322,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6816
+    },
+    {
+      "timestamp": "2026-04-28T00:06:02.063559",
+      "frame_id": 322,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        125,
+        101,
+        140,
+        116
+      ],
+      "confidence": 0.5027
+    },
+    {
+      "timestamp": "2026-04-28T00:06:04.126001",
+      "frame_id": 323,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6506
+    },
+    {
+      "timestamp": "2026-04-28T00:06:04.126001",
+      "frame_id": 323,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        125,
+        101,
+        142,
+        119
+      ],
+      "confidence": 0.4855
+    },
+    {
+      "timestamp": "2026-04-28T00:06:05.646583",
+      "frame_id": 324,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.7105
+    },
+    {
+      "timestamp": "2026-04-28T00:06:07.745862",
+      "frame_id": 325,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5309
+    },
+    {
+      "timestamp": "2026-04-28T00:06:07.745862",
+      "frame_id": 325,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        129,
+        106,
+        144,
+        121
+      ],
+      "confidence": 0.6184
+    },
+    {
+      "timestamp": "2026-04-28T00:06:11.594447",
+      "frame_id": 326,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.553
+    },
+    {
+      "timestamp": "2026-04-28T00:06:11.594447",
+      "frame_id": 326,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.48
+    },
+    {
+      "timestamp": "2026-04-28T00:06:11.594447",
+      "frame_id": 326,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        130,
+        110,
+        146,
+        122
+      ],
+      "confidence": 0.6375
+    },
+    {
+      "timestamp": "2026-04-28T00:06:14.549855",
+      "frame_id": 327,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5404
+    },
+    {
+      "timestamp": "2026-04-28T00:06:14.549855",
+      "frame_id": 327,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        130,
+        108,
+        148,
+        124
+      ],
+      "confidence": 0.6478
+    },
+    {
+      "timestamp": "2026-04-28T00:06:19.126328",
+      "frame_id": 328,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.4898
+    },
+    {
+      "timestamp": "2026-04-28T00:06:19.126328",
+      "frame_id": 328,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        133,
+        111,
+        151,
+        127
+      ],
+      "confidence": 0.5849
+    },
+    {
+      "timestamp": "2026-04-28T00:06:24.779911",
+      "frame_id": 329,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5553
+    },
+    {
+      "timestamp": "2026-04-28T00:06:24.779911",
+      "frame_id": 329,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        132,
+        109,
+        153,
+        130
+      ],
+      "confidence": 0.5854
+    },
+    {
+      "timestamp": "2026-04-28T00:06:24.779911",
+      "frame_id": 329,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.4515
+    },
+    {
+      "timestamp": "2026-04-28T00:06:26.972591",
+      "frame_id": 330,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.481
+    },
+    {
+      "timestamp": "2026-04-28T00:06:28.779858",
+      "frame_id": 331,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5686
+    },
+    {
+      "timestamp": "2026-04-28T00:06:28.779858",
+      "frame_id": 331,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        136,
+        113,
+        157,
+        134
+      ],
+      "confidence": 0.494
+    },
+    {
+      "timestamp": "2026-04-28T00:06:33.041125",
+      "frame_id": 332,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.5588
+    },
+    {
+      "timestamp": "2026-04-28T00:06:33.041125",
+      "frame_id": 332,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        138,
+        114,
+        159,
+        137
+      ],
+      "confidence": 0.6181
+    },
+    {
+      "timestamp": "2026-04-28T00:06:33.041125",
+      "frame_id": 332,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.4503
+    },
+    {
+      "timestamp": "2026-04-28T00:06:38.399972",
+      "frame_id": 333,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        32
+      ],
+      "confidence": 0.5025
+    },
+    {
+      "timestamp": "2026-04-28T00:06:38.399972",
+      "frame_id": 333,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        139,
+        115,
+        162,
+        140
+      ],
+      "confidence": 0.5013
+    },
+    {
+      "timestamp": "2026-04-28T00:06:50.440097",
+      "frame_id": 334,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5509
+    },
+    {
+      "timestamp": "2026-04-28T00:06:50.440097",
+      "frame_id": 334,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.4641
+    },
+    {
+      "timestamp": "2026-04-28T00:06:58.159883",
+      "frame_id": 335,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.4984
+    },
+    {
+      "timestamp": "2026-04-28T00:06:58.159883",
+      "frame_id": 335,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.474
+    },
+    {
+      "timestamp": "2026-04-28T00:06:58.159883",
+      "frame_id": 335,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 29,
+      "bbox": [
+        142,
+        119,
+        167,
+        145
+      ],
+      "confidence": 0.5206
+    },
+    {
+      "timestamp": "2026-04-28T00:07:04.314110",
+      "frame_id": 336,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5373
+    },
+    {
+      "timestamp": "2026-04-28T00:07:04.314110",
+      "frame_id": 336,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        33
+      ],
+      "confidence": 0.5012
+    },
+    {
+      "timestamp": "2026-04-28T00:07:12.756160",
+      "frame_id": 337,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5795
+    },
+    {
+      "timestamp": "2026-04-28T00:07:12.756160",
+      "frame_id": 337,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        33
+      ],
+      "confidence": 0.492
+    },
+    {
+      "timestamp": "2026-04-28T00:07:20.925405",
+      "frame_id": 338,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5128
+    },
+    {
+      "timestamp": "2026-04-28T00:07:20.925405",
+      "frame_id": 338,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        33
+      ],
+      "confidence": 0.4633
+    },
+    {
+      "timestamp": "2026-04-28T00:07:29.631885",
+      "frame_id": 339,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5341
+    },
+    {
+      "timestamp": "2026-04-28T00:07:37.758424",
+      "frame_id": 340,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        33
+      ],
+      "confidence": 0.5565
+    },
+    {
+      "timestamp": "2026-04-28T00:07:47.501898",
+      "frame_id": 341,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6158
+    },
+    {
+      "timestamp": "2026-04-28T00:07:54.659830",
+      "frame_id": 342,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6054
+    },
+    {
+      "timestamp": "2026-04-28T00:08:02.924368",
+      "frame_id": 343,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        33
+      ],
+      "confidence": 0.5843
+    },
+    {
+      "timestamp": "2026-04-28T00:08:02.924368",
+      "frame_id": 343,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.49
+    },
+    {
+      "timestamp": "2026-04-28T00:08:10.311850",
+      "frame_id": 344,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.6159
+    },
+    {
+      "timestamp": "2026-04-28T00:08:10.311850",
+      "frame_id": 344,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.4825
+    },
+    {
+      "timestamp": "2026-04-28T00:08:19.469657",
+      "frame_id": 345,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        75,
+        33
+      ],
+      "confidence": 0.6262
+    },
+    {
+      "timestamp": "2026-04-28T00:08:19.469657",
+      "frame_id": 345,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.471
+    },
+    {
+      "timestamp": "2026-04-28T00:08:19.469657",
+      "frame_id": 345,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 36,
+      "bbox": [
+        201,
+        24,
+        223,
+        32
+      ],
+      "confidence": 0.4579
+    },
+    {
+      "timestamp": "2026-04-28T00:08:29.789449",
+      "frame_id": 346,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        33
+      ],
+      "confidence": 0.6326
+    },
+    {
+      "timestamp": "2026-04-28T00:08:29.789449",
+      "frame_id": 346,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.5004
+    },
+    {
+      "timestamp": "2026-04-28T00:08:32.320758",
+      "frame_id": 347,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.6018
+    },
+    {
+      "timestamp": "2026-04-28T00:08:32.320758",
+      "frame_id": 347,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.4845
+    },
+    {
+      "timestamp": "2026-04-28T00:08:35.000912",
+      "frame_id": 348,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        33
+      ],
+      "confidence": 0.5876
+    },
+    {
+      "timestamp": "2026-04-28T00:08:35.000912",
+      "frame_id": 348,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 34,
+      "bbox": [
+        159,
+        25,
+        170,
+        32
+      ],
+      "confidence": 0.5063
+    },
+    {
+      "timestamp": "2026-04-28T00:08:35.919861",
+      "frame_id": 349,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5316
+    },
+    {
+      "timestamp": "2026-04-28T00:08:37.715109",
+      "frame_id": 350,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.4985
+    },
+    {
+      "timestamp": "2026-04-28T00:08:38.445286",
+      "frame_id": 351,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        1,
+        75,
+        32
+      ],
+      "confidence": 0.5354
+    },
+    {
+      "timestamp": "2026-04-28T00:08:39.339413",
+      "frame_id": 352,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        2,
+        74,
+        32
+      ],
+      "confidence": 0.5473
+    },
+    {
+      "timestamp": "2026-04-28T00:08:39.873817",
+      "frame_id": 353,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        79,
+        33
+      ],
+      "confidence": 0.5939
+    },
+    {
+      "timestamp": "2026-04-28T00:08:40.632957",
+      "frame_id": 354,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        77,
+        33
+      ],
+      "confidence": 0.5723
+    },
+    {
+      "timestamp": "2026-04-28T00:08:41.326459",
+      "frame_id": 355,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        76,
+        33
+      ],
+      "confidence": 0.5991
+    },
+    {
+      "timestamp": "2026-04-28T00:08:44.049514",
+      "frame_id": 356,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5656
+    },
+    {
+      "timestamp": "2026-04-28T00:08:50.040333",
+      "frame_id": 357,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5467
+    },
+    {
+      "timestamp": "2026-04-28T00:08:50.040333",
+      "frame_id": 357,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 40,
+      "bbox": [
+        248,
+        26,
+        279,
+        43
+      ],
+      "confidence": 0.4606
+    },
+    {
+      "timestamp": "2026-04-28T00:08:53.975953",
+      "frame_id": 358,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5677
+    },
+    {
+      "timestamp": "2026-04-28T00:08:53.975953",
+      "frame_id": 358,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 40,
+      "bbox": [
+        248,
+        26,
+        279,
+        43
+      ],
+      "confidence": 0.4777
+    },
+    {
+      "timestamp": "2026-04-28T00:08:55.845680",
+      "frame_id": 359,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5016
+    },
+    {
+      "timestamp": "2026-04-28T00:08:59.295398",
+      "frame_id": 360,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6111
+    },
+    {
+      "timestamp": "2026-04-28T00:09:00.636774",
+      "frame_id": 361,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        32
+      ],
+      "confidence": 0.5361
+    },
+    {
+      "timestamp": "2026-04-28T00:09:01.368842",
+      "frame_id": 362,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        32
+      ],
+      "confidence": 0.5339
+    },
+    {
+      "timestamp": "2026-04-28T00:09:01.916650",
+      "frame_id": 363,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        32
+      ],
+      "confidence": 0.588
+    },
+    {
+      "timestamp": "2026-04-28T00:09:01.916650",
+      "frame_id": 363,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        112,
+        90,
+        125,
+        102
+      ],
+      "confidence": 0.5169
+    },
+    {
+      "timestamp": "2026-04-28T00:09:02.778144",
+      "frame_id": 364,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.5666
+    },
+    {
+      "timestamp": "2026-04-28T00:09:02.778144",
+      "frame_id": 364,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        113,
+        90,
+        126,
+        103
+      ],
+      "confidence": 0.566
+    },
+    {
+      "timestamp": "2026-04-28T00:09:04.442846",
+      "frame_id": 365,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        76,
+        33
+      ],
+      "confidence": 0.5336
+    },
+    {
+      "timestamp": "2026-04-28T00:09:04.442846",
+      "frame_id": 365,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        114,
+        91,
+        128,
+        104
+      ],
+      "confidence": 0.4948
+    },
+    {
+      "timestamp": "2026-04-28T00:09:04.941450",
+      "frame_id": 366,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        76,
+        33
+      ],
+      "confidence": 0.5154
+    },
+    {
+      "timestamp": "2026-04-28T00:09:04.941450",
+      "frame_id": 366,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        114,
+        92,
+        129,
+        104
+      ],
+      "confidence": 0.4864
+    },
+    {
+      "timestamp": "2026-04-28T00:09:06.356715",
+      "frame_id": 367,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        83,
+        33
+      ],
+      "confidence": 0.5796
+    },
+    {
+      "timestamp": "2026-04-28T00:09:06.356715",
+      "frame_id": 367,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        115,
+        93,
+        130,
+        106
+      ],
+      "confidence": 0.6228
+    },
+    {
+      "timestamp": "2026-04-28T00:09:08.233741",
+      "frame_id": 368,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        78,
+        33
+      ],
+      "confidence": 0.6536
+    },
+    {
+      "timestamp": "2026-04-28T00:09:08.233741",
+      "frame_id": 368,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        116,
+        94,
+        131,
+        107
+      ],
+      "confidence": 0.4543
+    },
+    {
+      "timestamp": "2026-04-28T00:09:08.752513",
+      "frame_id": 369,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        78,
+        33
+      ],
+      "confidence": 0.5931
+    },
+    {
+      "timestamp": "2026-04-28T00:09:10.256526",
+      "frame_id": 370,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        76,
+        33
+      ],
+      "confidence": 0.616
+    },
+    {
+      "timestamp": "2026-04-28T00:09:11.404734",
+      "frame_id": 371,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.6083
+    },
+    {
+      "timestamp": "2026-04-28T00:09:12.102746",
+      "frame_id": 372,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        75,
+        33
+      ],
+      "confidence": 0.5842
+    },
+    {
+      "timestamp": "2026-04-28T00:09:12.883519",
+      "frame_id": 373,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6459
+    },
+    {
+      "timestamp": "2026-04-28T00:09:12.883519",
+      "frame_id": 373,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        121,
+        99,
+        137,
+        112
+      ],
+      "confidence": 0.5465
+    },
+    {
+      "timestamp": "2026-04-28T00:09:15.501146",
+      "frame_id": 374,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "traffic sign",
+      "class_id": 8,
+      "track_id": 16,
+      "bbox": [
+        2,
+        3,
+        74,
+        33
+      ],
+      "confidence": 0.6333
+    },
+    {
+      "timestamp": "2026-04-28T00:09:15.501146",
+      "frame_id": 374,
+      "video_source": "data/fecc9a75-f0ac-49bc-8e48-02e71bef2cd7-0.mp4",
+      "class_name": "car",
+      "class_id": 2,
+      "track_id": 41,
+      "bbox": [
+        121,
+        100,
+        138,
+        113
+      ],
+      "confidence": 0.6133
+    }
+  ],
+  "stats": {
+    "unique_counts": {
+      "traffic sign": 8,
+      "car": 6
+    },
+    "total_frames": 375
+  }
+}

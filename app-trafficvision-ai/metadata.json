@@ -1,0 +1,6 @@
+{
+  "name": "TrafficVision AI",
+  "description": "Enterprise-grade road traffic object detection, tracking, and counting dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI Object Tracking", "Real-time Analytics", "Traffic Flow Monitoring"]
+}
